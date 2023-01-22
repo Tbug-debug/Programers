@@ -1,4 +1,4 @@
-      function solution(participant, completion) {
+   function solution(participant, completion) {
                 let par = participant.sort();
                 let com = completion.sort();
 
