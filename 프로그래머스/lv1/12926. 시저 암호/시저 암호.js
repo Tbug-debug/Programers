@@ -38,12 +38,12 @@ function solution(s, n) {
                 }
 
                 arr.forEach((a, i) => {
-                    if (a >= 33 && a <= 57) {
+                    if (a >= 33 && a <= 57) { // arr 배열에 n만큼 더해진 공백(아스키코드: 32)을 다시 32로 변환.
                         arr[i] = 32;
                     }
                 });
 
-                arr.forEach((a, i) => {
+                arr.forEach((a, i) => { //문자열로 answer에 할당.
                     answer += String.fromCharCode(a);
                 });
 
