@@ -4,7 +4,7 @@
 
                 for (let i = 0; i < arr.length; i++) {
                     for (let j = 0; j < arr.length; j++) {
-                        if (i !== j) { // i와 j가 같지 않을때, 즉 2, 2 이렇게 같은 값으로의 덧셈을 제외 시킨다.
+                        if (i !== j) { // i와 j가 같지 않을때, 즉 2, 2 이렇게 같은 i와 j로의 덧셈을 제외 시킨다.
                             art.push(arr[i] + arr[j]);
                         }
                     }
